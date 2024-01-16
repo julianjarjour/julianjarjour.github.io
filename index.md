@@ -7,7 +7,7 @@ layout: base
 <figcaption><a href="https://thoreau.library.ucsb.edu/writings_journals_pdfs/TMS20newTR.pdf" target="_blank">Henry David Thoreau, <cite>Journal</cite></a></figcaption>
 </figure>
 I have had a long-standing and currently ongoing passion for sustainable urban design and pedestrianization, and in my casual self-study I often hear about Auckland, New Zealand. It is portrayed in a good light for its *walkability and high efficiency, and it even has a perfect Walk Score*.
-
+<div class="notice"><strong>Work in progress!</strong> Much of what you read won't make sense because it's just being used to test formatting.</div>
 Upon hearing this, I thought of Amsterdam: an example of ideal walking conditions and infrastructure. I hold Amsterdam in high regard for this, but sometimes I hear **some seemingly reasonable arguments about how their lack of diversity in terms of class and race facilitates their ideal state**. I haven’t looked into Amsterdam's case specifically, but I figured the same might be true for Auckland due to New Zealand’s history of European colonization.
 
 As it turns out, Auckland is not as walkable as it is often made out to be, and even with a brief glance at the data it is clear that ethnicity plays a large role in the heterogeneous ward infrastructure throughout the city. When people talk about Auckland, they’re only talking about one small section of the city, just as people really mean Boston when they talk about Massachusetts.
