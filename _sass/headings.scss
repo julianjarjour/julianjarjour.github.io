@@ -1,0 +1,21 @@
+h1 {
+  font-size: 1.3rem;
+  text-align: center;
+}
+h2 {
+  font-size: 1.2rem;
+  font-variant: small-caps;
+  border-bottom: dashed 1px #eee;
+  margin: 2em 0 -.5em 0;
+  letter-spacing: 1px;
+}
+@media (max-width: 370px) {
+  h2 {
+    letter-spacing: 0;
+  }
+}
+@media (max-width: 340px) {
+  h2 {
+    letter-spacing: -1px;
+  }
+}

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang='{{ site.lang | default: "en-US" }}'>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="referrer" content="no-referrer">
+    <meta name="description" content="{{ page.description }}">
+    {% if page.title %}<title>{{ page.title }} - {{ site.title }}</title>{% else %}<title>{{ site.title }}</title>{% endif %}
+    <link rel="stylesheet" href='{{ "/main.css" | relative_url }}'>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  </head>
+  <body>
+    {% include header.html %}
+    <main>
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </body>
+</html>
