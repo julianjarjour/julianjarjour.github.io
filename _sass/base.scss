@@ -41,8 +41,9 @@ header {
   width: 80vw;
   max-width: 26rem;
   overflow: hidden;
+  white-space: pre;
   height: 5rem;
-  content: "~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`";
+  content: "~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~\A~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~";
   position: absolute;
   color: #333;
   background: linear-gradient(#000, #333 30%);
@@ -57,6 +58,8 @@ header {
     border-top: 2px dashed #eee;
     border-bottom: 2px dashed #eee;
     margin-bottom: 1em;
+    width: 80vw;
+    max-width: 26rem;
     flex-flow: row wrap;
     .navlink {
       flex: 1;
@@ -80,8 +83,9 @@ footer {
   width: 80vw;
   max-width: 26rem;
   overflow: hidden;
+  white-space: pre;
   height: 2.5rem;
-  content: "~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`";
+  content: "~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~";
   background: linear-gradient(#333 70%, #000);
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -95,62 +99,7 @@ footer {
   font-size: 80%;
   color: #ccc;
 }
-.error404 {
-  user-select: none;
-  margin: -1rem 0 0 -.2rem;
-  color: #333;
-  z-index: -10;
-  width: 80vw;
-  max-width: 26rem;
-  overflow: hidden;
-  height: 15rem;
-  white-space: pre-wrap;
-  .enum {
-    color: #EE204D;
-    position: relative;
-    font-weight: 800;
-    &::after {
-      content: "that page could not be found";
-      position: absolute;
-      font-weight: 600;
-      width: 8rem;
-      top: 5rem;
-      left: 5rem;
-      color: #eee;
-    }
-  }
-}
-
-
 .notice {
   background: #8b0000;
   padding: 1em;
-}
-
-
-@media (max-width: 705px) {
-  html {
-    font-size: 140%;
-  }
-}
-@media (max-width: 660px) {
-  html {
-    font-size: 130%;
-  }
-}
-@media (max-width: 450px) {
-  html {
-    font-size: 115%;
-  }
-}
-@media (max-width: 432px) {
-  html {
-    font-size: 110%;
-  }
-}
-
-@media (max-width: 350px) {
-  .navlink {
-    min-width: 200px;
-  }
 }

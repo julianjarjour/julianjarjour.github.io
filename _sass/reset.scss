@@ -28,11 +28,13 @@ html {
 	font-family:"Noto Serif","Iowan Old Style","Palatino Linotype","URW Palladio L","P052",serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 	line-height: 1.3;
   font-size: 150%;
+  background: black;
+  color: #eee;
+}
+body {
   margin: auto;
   width: 80vw;
   max-width: 26rem;
-  background: black;
-  color: #eee;
 }
 p {
   margin: 1rem 0;
