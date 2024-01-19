@@ -6,131 +6,39 @@
     <title>404 - julian jarjour</title>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <style>
-html {
-	font-family:"Noto Serif","Iowan Old Style","Palatino Linotype","URW Palladio L","P052",serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-	line-height: 1.3;
-  font-size: 150%;
-  background: black;
-  color: #eee;
-  -webkit-font-smoothing: antialiased;
-}
-body {
-  margin: auto;
-  width: 80vw;
-  max-width: 26rem;
-}
-h1 {
-  font-size: 1.3rem;
-  text-align: center;
-  padding: 1.5rem;
-  margin: 0;
-}
-a {
-  color: #eee;
-  text-decoration: none;
-}
-a:hover, a:active {
-  color: #ccc;
-}
-header::before {
-  width: 80vw;
-  max-width: 26rem;
-  overflow: hidden;
-  white-space: pre;
-  height: 5rem;
-  content: "~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~\A~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~";
-  position: absolute;
-  color: #333;
-  background: linear-gradient(#000, #333 30%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  z-index: -10;
-}
-nav {
-  display: flex;
-  justify-content: space-around;
-  border-bottom: 2px dashed #eee;
-  margin-bottom: 1em;
-  flex-flow: row wrap;
-}
-a.navlink {
-  flex: 1;
-  font-size: 92%;
-  padding: .2em;
-  color: #eee;
-  text-align: center;
-}
-.navlink:hover, .navlink:active {
-  background: #333;
-}
-header {
-  margin-top: -.5em;
-}
-footer::before {
-  width: 80vw;
-  max-width: 26rem;
-  overflow: hidden;
-  white-space: pre;
-  height: 2.5rem;
-  content: "~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~";
-  background: linear-gradient(#333 70%, #000);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  position: absolute;
-  color: #333;
-  z-index: -10;
-}
-footer,nav {
-  border-top: 2px dashed #eee;
-}
-.subtitle {
-  margin: .5em 0;
-  font-size: 80%;
-  color: #ccc;
-}
-@media (max-width: 550px) {
-  html {
-    font-size: 140%;
-  }
-}
-@media (max-width: 480px) {
-  html {
-    font-size: 130%;
-  }
-}
-@media (max-width: 430px) {
-  html {
-    font-size: 120%;
-  }
-}
-@media (max-width: 390px) {
-  html {
-    font-size: 115%;
-  }
-}
-@media (max-width: 350px) {
-  html {
-    font-size: 105%;
-  }
-}
-@media (max-width: 330px) {
-  html {
-    font-size: 100%;
-  }
-}
-@media (max-width: 315px) {
-  html {
-    font-size: 95%;
-  }
-}
+html{font-family:"Noto Serif","Iowan Old Style","Palatino","Palatino Linotype","URW Palladio L","P052",serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";line-height:1.3;font-size:150%;background:black;color:#eee;-webkit-font-smoothing:antialiased;}
+body{margin:auto;width:80vw;max-width:26rem;}
+h1{font-size:1.3rem;text-align:center;padding-top:1.25rem;margin:0;}
+a{color:#eee;text-decoration:none;}
+a:hover,a:active{color:#ccc;}
+header::before{width:80vw;max-width:26rem;overflow:hidden;white-space:pre;height:5rem;content:"~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~\A~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~";position:absolute;color:#333;background:linear-gradient(#000,#333 30%);background-clip:text;-webkit-text-fill-color:transparent;z-index:-10;}
+nav{display:flex;justify-content:space-around;border-bottom:2px dashed #eee;margin-bottom:1em;flex-flow:row wrap;}
+a.navlink{flex:1;font-size:92%;padding:.2em;color:#eee;text-align:center;}
+.navlink:hover,.navlink:active{background:#333;}
+header{margin-top:-.5em;}
+.sitetitle{height:5rem;text-align:center;}
+.slogan{font-size:86%;font-style:italic;text-align:center;margin:0;}
+footer::before{width:80vw;max-width:26rem;overflow:hidden;white-space:pre;height:2.5rem;content:"~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~";background:linear-gradient(#333 70%,#000);background-clip:text;-webkit-text-fill-color:transparent;position:absolute;color:#333;z-index:-10;}
+footer,nav{border-top:2px dashed #eee;}
+.subtitle{margin:.5em 0; font-size:80%;color:#ccc;}
+@media(max-width:550px){html{font-size:140%;}}
+@media(max-width:480px){html{font-size:130%;}}
+@media(max-width:430px){html{font-size:120%;}}
+@media(max-width:390px){html{font-size:115%;}}
+@media(max-width:350px){html{font-size:105%;}}
+@media(max-width:330px){html{font-size:100%;}}
+@media(max-width:315px){html{font-size:95%;}}
 </style>
   </head>
   <body>
     <header>
+      <div class="sitetitle">
   <h1><a href="/">julian jarjour</a></h1>
+  <p class="slogan">urbanism and nature</p>
+      </div>
   <nav>
-    <a class="navlink" href="/about.md">about</a>
-    <a class="navlink" href="/writing.md">writing</a>
+    <a class="navlink" href="/about.html">about</a>
+    <a class="navlink" href="/writing.html">writing</a>
   </nav>
 </header>
     <main>

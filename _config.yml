@@ -4,3 +4,12 @@ description: >-
   julian's essays and things
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+defaults:
+  - scope:
+      path: ""
+      type: "essays"
+    values:
+      layout: "essay"
+collections:
+  essays:
+    output: true

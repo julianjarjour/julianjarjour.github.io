@@ -6,43 +6,46 @@
   margin-right: .4rem;
   font-weight: 800;
 }
+figcaption {text-wrap:balance;font-size:86%;}
 blockquote {
   margin: 1em 0 0 1em;
   font-size: 92%;
   border-left: 2px dashed #eee;
   padding-left: .5em;
+  text-wrap: balance;
   + figcaption {
-    font-size: 86%;
     text-align: right;
   }
 }
 blockquote.epigraph {
   border: none;
-  margin: 1.5em 1em 0 1em;
-  position: relative;
+  padding: 0;
+  margin: 1.5em 1.5em 0 1.5em;
   + figcaption {
-    margin-right: 1em;
-  }
-  &:before {
-    content: "“";
-    font-size: 10rem;
-    position: absolute;
-    top: -3.5rem;
-    left: -1.5rem;
-    z-index: -10;
-    color: #333;
+    margin: 0 1.5em 1.5em 0;
   }
 }
 header {
-  margin-top: -.5em;
-  h1 {
-    padding: 1.5rem;
+  margin-top: -.5rem;
+  .sitetitle {
+    height: 5rem;
+    text-align: center;
+    h1 {
+      padding-top: 1.25rem;
+      margin: 0;
+    }
     a, a:visited {
+      text-shadow: none;
       color: #eee;
       background: none;
     }
     a:hover {
       color: #ccc;
+    }
+    .slogan {
+      font-size: 86%;
+      font-style: italic;
+      margin: 0;
     }
   }
   &::before {
@@ -65,7 +68,6 @@ header {
     justify-content: space-around;
     border-top: 2px dashed #eee;
     border-bottom: 2px dashed #eee;
-    margin-bottom: 1em;
     width: 80vw;
     max-width: 26rem;
     flex-flow: row wrap;
@@ -100,14 +102,58 @@ footer {
   position: absolute;
   color: #333;
   z-index: -10;
-}
-}
-.subtitle {
+  }}
+.subtitle,.essaydate{
   margin: .5em 0;
   font-size: 80%;
   color: #ccc;
 }
-.notice {
-  background: #8b0000;
-  padding: 1em;
+.essaydate{
+  text-align: center;
+  margin: 0;
+}
+ol {
+  counter-reset: ol;
+  margin-left: 1.5rem;
+  & > li {
+    counter-increment: ol;
+    margin: 1rem 0;
+    &::before {
+      position: absolute;
+      content:counter(ol)')';
+      margin-left: -1.5em;
+    }
+  }
+}
+ul {
+}
+.essay {
+  .essaytitledate{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-wrap: balance;
+}
+p {
+  margin: 0.5rem 0 0 0;
+  color: #ccc;
+}
+  padding: 1rem 0;
+  .subtitle {
+    white-space: pre;
+  }
+  a {background: 0;color:#eee;&:visited{color:#eee;}&:hover,&:active{color:#ccc;}margin-right:2rem;}
+  + li.essay {
+    border-top: 1px dashed #333;
+  }
+}
+pre {
+    overflow: auto;
+    padding: 0.5em;
+    line-height: 130%;
+  }
+code, pre {
+  background: #333;
+  font-family: monospace;
+  font-size: 95%;
 }
