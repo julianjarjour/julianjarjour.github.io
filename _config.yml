@@ -10,6 +10,13 @@ defaults:
       type: "essays"
     values:
       layout: "essay"
+  - scope:
+      path: ""
+      type: "poetry"
+    values:
+      layout: "poem"
 collections:
   essays:
+    output: true
+  poetry:
     output: true

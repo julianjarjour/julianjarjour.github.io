@@ -1,8 +1,8 @@
 ---
 title: Taking Photos for Plant Identification
 description: A quick primer on taking photos for future plant identification off the field.
-date: 2023-10-08
-modDate: 2023-11-17
+date: 2024-1-20
+modDate: 2023-11-21
 ---
 <span class="dc">L</span>ately I've been diving into botany for fun, making my first confident plant identifications just yesterday: *Helianthus tuberosus* and *Silene latifolia*. It's exciting to finally have certainty in what I was observing. The thought that I might be able to recognize these flowers in the future, as if they're new friends, is even more exciting.
 

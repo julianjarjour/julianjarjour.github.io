@@ -1,15 +1,17 @@
 ---
 layout: base
 ---
-{% assign essays = site.essays | sort: 'date' | reverse %}
 <ul>
-  {% for essay in essays %}
-    <li class="essay">
-    <div class="essaytitledate">
-      <a href="{{ essay.url }}">{{ essay.title }}</a>
-      <p class="subtitle">{{ essay.date | date: '%b %-d, %Y' }}</p>
+    {%assign essays = site.essays | sort: 'date' | reverse%}
+    {%for essay in essays%}
+    <li>
+      <a class="essay" href="{{ essay.url }}">
+      <div class="edt">
+      {{essay.title}}
+      <p class="subtitle">{{essay.date|date:'%D'}}</p>
       </div>
-      <p>{{essay.description}}</p>
-    </li>
-  {% endfor %}
+      <p class="essaydesc">{{essay.description}}</p>
+    </a>
+        </li>
+    {%endfor%}
 </ul>

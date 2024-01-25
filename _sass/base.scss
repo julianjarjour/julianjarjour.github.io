@@ -27,6 +27,7 @@ blockquote.epigraph {
 }
 header {
   margin-top: -.5rem;
+  margin-bottom: 1rem;
   .sitetitle {
     height: 5rem;
     text-align: center;
@@ -58,7 +59,7 @@ header {
   position: absolute;
   color: #333;
   background: linear-gradient(#000, #333 30%);
-  background-clip: text;
+ background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: -10;
   }
@@ -89,6 +90,7 @@ header {
 }
 footer {
   border-top: 2px dashed #eee;
+  margin-top: 1rem;
  &::before {
   width: 80vw;
   max-width: 26rem;
@@ -103,12 +105,19 @@ footer {
   color: #333;
   z-index: -10;
   }}
-.subtitle,.essaydate{
-  margin: .5em 0;
+.subtitle{
   font-size: 80%;
   color: #ccc;
+  margin: .5rem 0;
+}
+.modDate {
+  font-size: 80%;
+  color: #ccc;
+  margin:-.5rem 0;
 }
 .essaydate{
+  font-size: 80%;
+  color: #ccc;
   text-align: center;
   margin: 0;
 }
@@ -125,28 +134,6 @@ ol {
     }
   }
 }
-ul {
-}
-.essay {
-  .essaytitledate{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-wrap: balance;
-}
-p {
-  margin: 0.5rem 0 0 0;
-  color: #ccc;
-}
-  padding: 1rem 0;
-  .subtitle {
-    white-space: pre;
-  }
-  a {background: 0;color:#eee;&:visited{color:#eee;}&:hover,&:active{color:#ccc;}margin-right:2rem;}
-  + li.essay {
-    border-top: 1px dashed #333;
-  }
-}
 pre {
     overflow: auto;
     padding: 0.5em;
@@ -156,4 +143,31 @@ code, pre {
   background: #333;
   font-family: monospace;
   font-size: 95%;
+}
+.poem p {
+  white-space: pre;
+}
+.essay {
+  .edt {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    hyphens: none;
+    font-variant: small-caps;
+    .subtitle {
+      margin-left: 1rem;
+    }
+  }
+  .essaydesc {
+    margin: 0;
+    color: #ccc;
+  }
+  display: inline-block;
+  width: 100%;
+  text-shadow: none;
+  color: #eee;
+  background: none;
+  padding-bottom: .5rem;
+  &:visited{color:#eee;}
+  &:hover,&:active{color:#eee;background:#222;}
 }
