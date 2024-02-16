@@ -6,7 +6,7 @@
   margin-right: .4rem;
   font-weight: 800;
 }
-figcaption {text-wrap:balance;font-size:86%;}
+figcaption {text-wrap:balance;font-size:86%;color:#ccc;}
 blockquote {
   margin: 1em 0 0 1em;
   font-size: 92%;
@@ -50,7 +50,7 @@ header {
     }
   }
   &::before {
-  width: 80vw;
+  width: 90vw;
   max-width: 26rem;
   overflow: hidden;
   white-space: pre;
@@ -69,7 +69,7 @@ header {
     justify-content: space-around;
     border-top: 2px dashed #eee;
     border-bottom: 2px dashed #eee;
-    width: 80vw;
+    width: 90vw;
     max-width: 26rem;
     flex-flow: row wrap;
     .navlink {
@@ -92,7 +92,7 @@ footer {
   border-top: 2px dashed #eee;
   margin-top: 1rem;
  &::before {
-  width: 80vw;
+  width: 90vw;
   max-width: 26rem;
   overflow: hidden;
   white-space: pre;
@@ -144,30 +144,28 @@ code, pre {
   font-family: monospace;
   font-size: 95%;
 }
-.poem p {
+.poem {
   white-space: pre;
 }
 .essay {
-  .edt {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    hyphens: none;
-    font-variant: small-caps;
-    .subtitle {
-      margin-left: 1rem;
-    }
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  hyphens: none;
+  font-variant: small-caps;
+  .subtitle {
+    margin: 0 0 0 1rem;
   }
-  .essaydesc {
-    margin: 0;
-    color: #ccc;
-  }
-  display: inline-block;
   width: 100%;
   text-shadow: none;
+  padding: .5rem 0;
   color: #eee;
   background: none;
-  padding-bottom: .5rem;
   &:visited{color:#eee;}
-  &:hover,&:active{color:#eee;background:#222;}
+  &:hover,&:active{color:#eee;background:#333;}
+}
+.notice {
+  background: #6E260E;
+  padding: .5rem;
+  text-align: center;
 }

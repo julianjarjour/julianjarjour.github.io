@@ -6,12 +6,9 @@ layout: base
     {%for essay in essays%}
     <li>
       <a class="essay" href="{{ essay.url }}">
-      <div class="edt">
       {{essay.title}}
       <p class="subtitle">{{essay.date|date:'%D'}}</p>
-      </div>
-      <p class="essaydesc">{{essay.description}}</p>
-    </a>
-        </li>
+      </a>
+    </li>
     {%endfor%}
 </ul>
