@@ -2,9 +2,9 @@
 title: Taking Photos for Plant Identification
 description: A quick primer on taking photos for future plant identification off the field.
 date: 2024-1-20
-modDate: 2023-11-21
+modDate: 2024-3-30
 ---
-<span class="dc">I</span> don't know anyone who schleps their 900-page plant identification key—called a Flora—through the woods, and chances are, you don't want to do that either. When I first began identifying plants, I'd take a few pictures of a flower, run home to key it out, and get stuck because I couldn't remember if the phyllaries on the underside of the flower were really hairy or just a little hairy. Minuscule details like that always threw me off a flower's tracks, and I eventually learned that I had to document those parts of flowers that we often overlook, else I'd have no chance of identification.
+<span class="dc">I</span> don't know anyone who schleps their 900-page plant identification key—called a Flora—through the woods, and chances are, you don't want to do that either. When I first began identifying plants, I'd take a few pictures of a flower, run home to key it out, and get stuck because I couldn't remember if the phyllaries on the underside of the flower were really hairy or just a little hairy. Minuscule details like that always threw me off a flower's tracks, and I eventually learned that I had to document parts of flowers that we often overlook, else I'd have no chance of identification. Here's a short list of those important parts that you should be taking photos of.
 
 1. The **face** of the flower shows you its male and female organs, or the androecium and gynoecium respectively. Oh, and petals, of course.
 2. The **underside** of the flower is where you'll get a close-up of the stem and those green petal-looking things called sepals right under the flower head. Here you can look for hair or lack thereof.
