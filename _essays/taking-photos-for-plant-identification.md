@@ -1,19 +1,21 @@
 ---
 title: Taking Photos for Plant Identification
-description: A quick primer on taking photos for future plant identification off the field.
+description: Five basic things to look for when taking photos of a plant for identification with a key.
 date: 2024-1-20
-modDate: 2024-3-30
+modDate: 2024-3-31
 ---
-<span class="dc">I</span> don't know anyone who schleps their 900-page plant identification key—called a Flora—through the woods, and chances are, you don't want to do that either. When I first began identifying plants, I'd take a few pictures of a flower, run home to key it out, and get stuck because I couldn't remember if the phyllaries on the underside of the flower were really hairy or just a little hairy. Minuscule details like that always threw me off a flower's tracks, and I eventually learned that I had to document parts of flowers that we often overlook, else I'd have no chance of identification. Here's a short list of those important parts that you should be taking photos of.
+<span class="dc">I</span> don't know anyone who schleps their 900-page plant identification key—called a Flora—through the woods, whipping it out at every untried posy. Chances are, you don't want to do all that to identify a flower. Best leave the Flora at home and find a way to bring the plant to it.
+
+When I first began identifying plants, I'd take a few pictures of a flower, run home to key it out, and hit a wall because I couldn't remember if the phyllaries on the underside were *really* hairy or just a little hairy. Minute details like that always threw me off a flower's tracks, and I quickly realized that I couldn't make do with my aimless documentation.
+
+There are a few important flower parts that will guide you through the many forks in the identification road:
 
 1. The **face** of the flower shows you its male and female organs, or the androecium and gynoecium respectively. Oh, and petals, of course.
-2. The **underside** of the flower is where you'll get a close-up of the stem and those green petal-looking things called sepals right under the flower head. Here you can look for hair or lack thereof.
-3. If there are multiple flowers rising from one main stem, you're looking at an **inflorescence**. They're categorized based on the arrangement of flowers on the plant, and those arrangements have funny names like "umbel" and "corymb" and "raceme."
-4. **Leaves** have lots of important qualities for identification, such as their shape or the way they're attached to the stem. The top and bottom of a leaf can be different, so don't forget to take photos of both sides.
-5. Last and technically most, you'll want a photo of the **entire plant**. This shows you whether it climbs or stands, rises high or stays low. If you missed something, you can zoom in on this photo to try catching it.
+2. The **underside** of the flower is where you'll get a close-up of the stem and those (usually) green petal-looking things called sepals (sometimes phyllaries) right below the petals. Here you can look for hair or lack thereof.
+3. If there are multiple flowers rising from one main stem, you're looking at an **inflorescence**. There are many different types of inflorescences, categorized with funny words like "umbel" and "corymb" and "raceme."
+4. **Leaves** have lots of important qualities for identification, such as their shape or the way they're attached to the stem. The top and bottom of a leaf can be different, so make sure to take photos of both sides.
+5. Last and technically most, you'll want a photo of the **entire plant**. This shows you the arrangement and distribution of leaves up the stem, along with other macro-level details. If something is missing from the other photos, you can zoom in on this one to try catching it.
 
-Whenever I'm really clueless as to what I'm looking at, I like to upload photos to iNaturalist or Google's image search to narrow the plant down to its genus. If you do this, I suggest working backwards from that genus in the key to learn about its features. This way, you'll be able to identify it without relying on reverse image searches in the future.
+Whenever I'm really clueless as to what I'm looking at, I'll upload photos to iNaturalist or Google's image search to narrow the plant down to its genus. If you do this, I were suggest working backwards from that genus in the key to learn about its features. This way, you'll be able to identify it without relying on image searches in the future.
 
-Though this will get you through most identifications, it may not always be enough, especially when dealing with more nuanced genera or families like Asteraceae. When you study difficult taxa, look over the key before you go out; it'll tell you exactly what to look for.
-
-Happy identifying!
+Though this will get you through most identifications, it may not always be enough, especially when dealing with more nuanced families or genera. When you study difficult taxa, look over the key before you go out; it'll tell you exactly what to look for. Or, you could just haul that Flora along with you.
