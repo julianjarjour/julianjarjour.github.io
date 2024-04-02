@@ -2,7 +2,7 @@
 title: Taking Photos for Plant Identification
 description: Five basic things to look for when taking photos of a plant for identification with a key.
 date: 2024-1-20
-modDate: 2024-3-31
+modDate: 2024-4-01
 ---
 <span class="dc">I</span> don't know anyone who schleps their 900-page plant identification key—called a Flora—through the woods, whipping it out at every untried posy. Chances are, you don't want to do all that to identify a flower. Best leave the Flora at home and find a way to bring the plant to it.
 
@@ -16,6 +16,6 @@ There are a few important flower parts that will guide you through the many fork
 4. **Leaves** have lots of important qualities for identification, such as their shape or the way they're attached to the stem. The top and bottom of a leaf can be different, so make sure to take photos of both sides.
 5. Last and technically most, you'll want a photo of the **entire plant**. This shows you the arrangement and distribution of leaves up the stem, along with other macro-level details. If something is missing from the other photos, you can zoom in on this one to try catching it.
 
-Whenever I'm really clueless as to what I'm looking at, I'll upload photos to iNaturalist or Google's image search to narrow the plant down to its genus. If you do this, I were suggest working backwards from that genus in the key to learn about its features. This way, you'll be able to identify it without relying on image searches in the future.
+When I'm getting nowhere with identification, I'll upload photos to iNaturalist or Google's image search to narrow the plant down to its genus. If you do this, I were suggest working backwards from that genus in the key to learn about its features. This way, you'll be able to identify it without relying on image searches in the future.
 
 Though this will get you through most identifications, it may not always be enough, especially when dealing with more nuanced families or genera. When you study difficult taxa, look over the key before you go out; it'll tell you exactly what to look for. Or, you could just haul that Flora along with you.
