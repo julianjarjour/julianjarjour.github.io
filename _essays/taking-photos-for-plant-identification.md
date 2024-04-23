@@ -1,5 +1,5 @@
 ---
-title: Taking Photos for Plant Identification
+title: taking photos for plant identification
 description: Five basic things to look for when taking photos of a plant for identification with a key.
 date: 2024-1-20
 modDate: 2024-4-01
