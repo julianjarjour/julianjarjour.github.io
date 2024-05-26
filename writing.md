@@ -2,12 +2,12 @@
 layout: base
 ---
 <ul>
-    {%assign essays = site.essays | sort: 'date' | reverse%}
-    {%for essay in essays%}
+    {%assign writing = site.writing | sort: 'date' | reverse %}
+    {%for post in writing%}
     <li>
-      <a class="essay" href="{{ essay.url }}">
-      {{essay.title}}
-      <p class="subtitle">{{essay.date|date:'%D'}}</p>
+      <a class="post" href="{{ post.url }}">
+      {{post.title}}
+      <p class="subtitle">{{post.date|date:'%D'}}</p>
       </a>
     </li>
     {%endfor%}
