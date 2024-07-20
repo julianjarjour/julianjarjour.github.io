@@ -11,14 +11,13 @@ body{margin:auto;width:80vw;max-width:26rem;}
 h1{font-size:1.3rem;text-align:center;padding-top:1.25rem;margin:0;}
 a{color:#eee;text-decoration:none;}
 a:hover,a:active{color:#ccc;}
-header::before{width:80vw;max-width:26rem;overflow:hidden;white-space:pre;height:5rem;content:"~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~\A~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~";position:absolute;color:#333;background:linear-gradient(#000,#333 30%);background-clip:text;-webkit-text-fill-color:transparent;z-index:-10;}
+header::before{width:80vw;max-width:26rem;overflow:hidden;white-space:pre;height:5rem;content:"~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~\A~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~\A~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~";position:absolute;font-family:monospace;color:#333;background:linear-gradient(#000,#333 50%);background-clip:text;-webkit-text-fill-color:transparent;z-index:-10;}
 nav{display:flex;justify-content:space-around;border-bottom:2px dashed #eee;margin-bottom:1em;flex-flow:row wrap;}
 a.navlink{flex:1;font-size:92%;padding:.2em;color:#eee;text-align:center;}
 .navlink:hover,.navlink:active{background:#333;}
-header{margin-top:-.5em;}
-.sitetitle{height:5rem;text-align:center;}
-.slogan{font-size:86%;font-style:italic;text-align:center;margin:0;}
-footer::before{width:80vw;max-width:26rem;overflow:hidden;white-space:pre;height:2.5rem;content:"~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~";background:linear-gradient(#333 70%,#000);background-clip:text;-webkit-text-fill-color:transparent;position:absolute;color:#333;z-index:-10;}
+header{margin-top:-.5rem;}
+h1{margin:0;line-height:5rem;padding:0;}
+footer::before{width:80vw;max-width:26rem;overflow:hidden;white-space:pre;font-family:monospace;height:2.5rem;content:"~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~";background:linear-gradient(#333 70%,#000);background-clip:text;-webkit-text-fill-color:transparent;position:absolute;color:#333;z-index:-10;}
 footer,nav{border-top:2px dashed #eee;}
 .subtitle{margin:.5em 0; font-size:80%;color:#ccc;}
 @media(max-width:550px){html{font-size:140%;}}
@@ -31,11 +30,8 @@ footer,nav{border-top:2px dashed #eee;}
 </style>
   </head>
   <body>
-    <header>
-      <div class="sitetitle">
+<header>
   <h1><a href="/">julian jarjour</a></h1>
-  <p class="slogan">urbanism and nature</p>
-      </div>
   <nav>
     <a class="navlink" href="/about.html">about</a>
     <a class="navlink" href="/writing.html">writing</a>

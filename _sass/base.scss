@@ -28,13 +28,10 @@ blockquote.epigraph {
 header {
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  .sitetitle {
-    height: 5rem;
-    text-align: center;
-    h1 {
-      padding-top: 1.25rem;
-      margin: 0;
-    }
+  h1 {
+    margin: 0;
+    line-height: 5rem;
+  }
     a, a:visited {
       text-shadow: none;
       color: #eee;
@@ -43,22 +40,17 @@ header {
     a:hover {
       color: #ccc;
     }
-    .slogan {
-      font-size: 86%;
-      font-style: italic;
-      margin: 0;
-    }
-  }
   &::before {
   width: 90vw;
   max-width: 26rem;
   overflow: hidden;
   white-space: pre;
+  font-family: monospace;
   height: 5rem;
-  content: "~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~\A~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~";
+  content: "~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~\A~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~\A~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~";
   position: absolute;
   color: #333;
-  background: linear-gradient(#000, #333 30%);
+  background: linear-gradient(#000, #333 50%);
  background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: -10;
@@ -95,6 +87,7 @@ footer {
   width: 90vw;
   max-width: 26rem;
   overflow: hidden;
+  font-family: monospace;
   white-space: pre;
   height: 2.5rem;
   content: "~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~\A~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~";
