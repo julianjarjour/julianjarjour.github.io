@@ -1,5 +1,6 @@
 ---
 layout: base
+title: writing
 ---
 <ul>
     {%assign writing = site.writing | sort: 'date' | reverse %}
