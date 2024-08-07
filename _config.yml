@@ -1,5 +1,4 @@
 title: julian jarjour
-email: abc@mail.com
 description: >- 
   julian's essays and things
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -12,11 +11,18 @@ defaults:
       layout: "post"
   - scope:
       path: ""
+      type: "projects"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
       type: "poetry"
     values:
       layout: "poem"
 collections:
   writing:
+    output: true
+  projects:
     output: true
   poetry:
     output: true

@@ -4,7 +4,7 @@ description: Five basic things to look for when taking photos of a plant for ide
 date: 2024-1-20
 modDate: 2024-5-26
 ---
-<span class="dc">I</span> don't know anyone who schleps their 900-page plant identification key—called a Flora—through the woods, whipping it out at every untried posy. Chances are, you don't want to break your back in the name of flower identification. Best leave the Flora at home and find a lighter way to identify.
+<span class="dc">I</span> don't know anyone who schleps their 900-page plant identification key---called a Flora---through the woods, whipping it out at every untried posy. Chances are, you don't want to break your back in the name of flower identification. Best leave the Flora at home and find a lighter way to identify.
 
 When I first began identifying plants, I'd take a few pictures of a flower, run home to key it out, and hit a wall because I couldn't remember if the phyllaries on the underside were *really* hairy or just a little hairy. Minute details like that always threw me off a flower's tracks, and I quickly realized that I couldn't make do with my aimless documentation.
 
