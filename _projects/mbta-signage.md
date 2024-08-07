@@ -29,7 +29,7 @@ date: 2024/08/06
     <div class="Tb-right">INBOUND TRAINS<img class="T-icon" src="assets/CircleUP.svg"></div>
   </div>
 </div>
-This multi-layered South Station sign is my magnum opus. The only deviation from accuracy is in the dividers between each icon; the MBTA includes a divider after the last icon, but I think it looks clunky so it was omitted.
+The multi-layered South Station sign is my magnum opus. The only deviation from accuracy is in the dividers between each icon; the MBTA includes a divider after the last icon, I thought that looked clunky so I did without it.
 <div class="MBTA-sign">
   <div class="T-top" id="white">South Station</div>
   <div class="T-bottom">
