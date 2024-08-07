@@ -1,5 +1,6 @@
 ---
 title: MBTA Signage in CSS
+description: A demo of Boston's MBTA signs replicated in CSS.
 date: 2024/08/06
 ---
 <head>
