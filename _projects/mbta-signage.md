@@ -3,7 +3,7 @@ title: MBTA Signage in CSS
 date: 2024/08/06
 ---
 <head>
-    <link rel="stylesheet" href='../mbta.css'>
+    <link rel="stylesheet" href='mbta.css'>
 </head>
 <span class="dc">M</span>y train-obsessed friend [Billy](https://www.btsully.net/){:target="_blank"} wanted an MBTA sign template for his website. This was my attempt, a success in my book and a load of fun to make. He recreated the icons in Inkscape, but we're hoping to receive better icon files straight from the agency soon.
 
