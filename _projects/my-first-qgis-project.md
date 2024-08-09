@@ -9,4 +9,4 @@ I began by skimming through Matt Forrest's [wonderful tutorial](https://www.yout
 
 <figure class="bigimg"><img src="assets/schoolcrashmap.jpg" width="864" height="610.983"></figure>
 
-Hopefully I can make some more beautiful maps moving foward. I want to explore some different topics like walkability, biodiversity, music, and even psychogeography in future maps. But for now, I'm happy with what I've created. Not so happy with the file size.
+Hopefully I can make some more beautiful maps moving foward. I want to explore different topics like walkability, biodiversity, music, and even psychogeography with GIS. But for now, I'm happy with what I've created. Not so happy with the file size.
