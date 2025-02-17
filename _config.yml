@@ -6,12 +6,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 defaults:
   - scope:
       path: ""
-      type: "writing"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-      type: "projects"
+      type: "musings"
     values:
       layout: "post"
   - scope:
@@ -20,9 +15,7 @@ defaults:
     values:
       layout: "poem"
 collections:
-  writing:
-    output: true
-  projects:
+  musings:
     output: true
   poetry:
     output: true
