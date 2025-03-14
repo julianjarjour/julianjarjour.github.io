@@ -6,7 +6,7 @@ date: 2024/12/16
 
 <div class="context">I wrote this essay for my first semester English course. If you're not familiar with Tony Kushner's play <em>Angels in America</em>, maybe the scene described in the first paragraph will inspire you to check it out.</div>
 
-The delusional, Valium-addicted Mormon, Harper Pitt, upon discovering
+<span class="dc">T</span>he delusional, Valium-addicted Mormon, Harper Pitt, upon discovering
 that her sexually unsatisfying husband Joe had always secretly longed for a
 phallus, finds herself rejoicing in the middle of an Antarctic flurry. In the
 “cold shelter for the shattered,” betwixt mountains of ice and below an
