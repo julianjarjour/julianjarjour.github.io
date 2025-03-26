@@ -22,5 +22,5 @@ I don't think the wires I bought were quite "dead-soft," as is recommended for w
 
 After finishing, I lay the pendant in the cute purple box that once delivered my girlfriend's jewelry to me. I turned it into a brown paper package tied up with string, one of my favorite things, and finished it off with a wax seal a la [Rajiv Surendra](https://www.youtube.com/watch?v=vm3dR4jhImU).
 
-<figure><img src="assets/pendant/pendant-4.png" width="624" height="381" alt="Black and white, gift box wrapped in brown paper, tied with string, and wax sealed with a deer stamp."><figcaption>All wrapped up and sealed, ready to gift.</figcaption></figure>
+<figure><img src="assets/pendant/pendant-3.png" width="624" height="381" alt="Black and white, gift box wrapped in brown paper, tied with string, and wax sealed with a deer stamp."><figcaption>All wrapped up and sealed, ready to gift.</figcaption></figure>
 
