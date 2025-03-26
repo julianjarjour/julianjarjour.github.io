@@ -39,7 +39,7 @@ dear, the world has gotten so terribly, terribly old.” Thus, her Antarctica is
 of a prehistoric era; pristine, open to interpretation, and conspicuously
 featuring ozone. In this scene, the world’s not ending. It’s a gay fantasia.
 
-It’s a blue world, numbingly cold. “No sorrow here, tears freeze,” says Mr.
+<span class="dc">I</span>t’s a blue world, numbingly cold. “No sorrow here, tears freeze,” says Mr.
 Lies. She never wants to leave, believing, like a cryonicist, that a heart
 frozen cannot die. Likewise, a person who is constantly connected cannot
 think. Rather than hear the dissonance of the outside world, we put our
