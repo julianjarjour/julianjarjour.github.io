@@ -35,6 +35,11 @@ body {
   margin:auto;
   width:90vw;
   max-width:26rem;
+  display:flex;
+  flex-direction:column;
+}
+main {
+  flex:1;
 }
 p {
   margin:1rem 0;
