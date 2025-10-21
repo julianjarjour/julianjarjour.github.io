@@ -6,7 +6,7 @@ date: 2024/08/06
 <head>
     <link rel="stylesheet" href='assets/mbta/mbta.css'>
 </head>
-<span class="dc">M</span>y train-obsessed friend [Billy](https://www.btsully.net/){:target="_blank"} wanted an MBTA sign template for his website. This is my attempt at creating one: a success in my book and a load of fun to make. He recreated the icons in Inkscape, but we're hoping to receive better icon files straight from the agency soon.
+<span class="dc">M</span>y train-obsessed friend Billy wanted to incorporate custom MBTA signs throughout his website. This is my attempt at creating a CSS template to that end: a success in my book and a load of fun to make. He whipped up some icons as we reached out to the agency in hopes of receiving the official ones (to no avail), and then I got to work on these bad boys.
 
 <div class="MBTA-sign">
   <div class="T-top" id="green">Copley</div>
@@ -30,7 +30,7 @@ date: 2024/08/06
     <div class="Tb-right">INBOUND TRAINS<img class="T-icon" src="assets/mbta/CircleUP.svg"></div>
   </div>
 </div>
-The multi-layered South Station sign is my magnum opus. The only deviation from accuracy is in the dividers between each icon; the MBTA includes a divider after the last icon, I thought that looked clunky so I did without it.
+The multi-layered South Station sign is my magnum opus. The only deviation from accuracy is in the dividers between each icon; the MBTA includes a divider after the last icon, but I thought that looked clunky so I did without it.
 <div class="MBTA-sign">
   <div class="T-top" id="white">South Station</div>
   <div class="T-bottom">
@@ -50,4 +50,4 @@ The multi-layered South Station sign is my magnum opus. The only deviation from 
   </div>
 </div>
 
-The code is admittedly a bit convoluted, but it works. If you want to use this, you're free to poke around in Inspect and/or email me for help.
+The code is probably a bit convoluted, but it works. If this interests you, feel free to poke around in Inspect.

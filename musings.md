@@ -13,3 +13,9 @@ title: musings
     </li>
     {%endfor%}
 </ul>
+
+<figure class="poem">
+<div class="stanza">
+<span class="verse">Safe upon the solid rock the ugly houses stand:</span><br>
+<span class="verse">Come and see my shining palace built upon the sand!</span>
+</div><figcaption>Edna St. Vincent Millay</figcaption></figure>

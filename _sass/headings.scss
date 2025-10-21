@@ -17,3 +17,14 @@ h3 {
   margin-bottom: -.75rem;
   text-align: center;
 }
+
+h1, h2 {
+      a, a:visited {
+      text-shadow: none;
+      color: #eee;
+      background: none;
+    }
+    a:hover {
+      color: #ccc;
+    }
+}

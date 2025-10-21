@@ -1,3 +1,6 @@
+h2 + p {
+  margin-top:0;
+}
 .dc {
   font-size: 4.5rem;
   margin-top: .2rem;
@@ -33,14 +36,6 @@ header {
     margin: 0;
     line-height: 5rem;
   }
-    a, a:visited {
-      text-shadow: none;
-      color: #eee;
-      background: none;
-    }
-    a:hover {
-      color: #ccc;
-    }
   &::before {
   width: 90vw;
   max-width: 26rem;
@@ -83,7 +78,6 @@ header {
 }
 footer {
   border-top: 2px dashed #eee;
-  margin-top: 1rem;
  &::before {
   width: 90vw;
   max-width: 26rem;
@@ -107,7 +101,7 @@ footer {
 .modDate {
   font-size: 80%;
   color: #ccc;
-  margin:-.5rem 0;
+  margin:-.5rem 0 .5rem 0;
 }
 .postdate {
   font-size: 80%;
@@ -138,10 +132,17 @@ code, pre {
   font-family: monospace;
   font-size: 95%;
 }
-.poem {
-  width:fit-content;
-  white-space: pre;
-}
+  .poem {
+      display: table;
+    }
+    .stanza {
+      text-indent: 0;
+      margin-left: 2em;
+      + figcaption {text-align:right;}
+    }
+    .verse {
+      margin-left: -2em;
+    }
 .post {
   display: flex;
   justify-content: space-between;
