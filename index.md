@@ -3,7 +3,7 @@ layout: base
 description: I'm a 19-year-old musician and naturalist. This is where I write about what I learn and what I like.
 ---
 <style>
-.welcome{display:inline-block;font-size:5.5vw;}
+.welcome{display:inline-block;font-size:5.6vw;}
 @media (min-width:692px){.welcome{font-size:1.55rem;}}
 </style>
 <div class="welcome"> <figure><img
