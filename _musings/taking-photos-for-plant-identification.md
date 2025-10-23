@@ -16,8 +16,8 @@ There are a few important flower parts that will guide you through the many fork
 4. **Leaves** have lots of important qualities for identification, such as their shape or the way they're attached to the stem. The top and bottom of a leaf can be different, so make sure to take photos of both sides.
 5. Last and technically most, you'll want a photo of the **entire plant**. This shows you the arrangement and distribution of leaves up the stem, along with other macro-level details. If something is missing from the other photos, you can zoom in on this one to try catching it.
 
-When I'm getting nowhere with identification, I'll upload photos to iNaturalist to narrow the plant down to a genus. If you do this, I were suggest working backwards from that genus in the key to learn about its features. This way, you'll be able to identify it without relying on image searches in the future.
+When I'm getting nowhere with identification, I'll upload photos to iNaturalist to narrow the plant down to a genus. If you do this, I suggest working backwards from that genus in the key to learn about its features. This way, you'll be able to identify it without relying on image searches in the future.
 
 <figure><img src="assets/daucus-carota-bwd.png" width="624" height="381" alt="Black and white Queen Anne's Lace flower."><figcaption><em>Daucus carota</em> (Queen Anne's Lace), inflorescence an umbel</figcaption></figure>
 
-Though this will get you through most identifications, it may not always be enough, especially when dealing with more nuanced families or genera. When you study difficult taxa, look over the key before you go out; it'll tell you exactly what to look for. Or you could just take the Flora.
+This will get you through most identifications, but sometimes it might not be enough---especially when dealing with more nuanced families or genera. When you study difficult taxa, look over the key before you go out; it'll tell you exactly what to look for. Or you could just take the Flora.
