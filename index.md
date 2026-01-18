@@ -23,7 +23,7 @@ back in love with the piano. On that note, I've also decided
 to audition for my university jazz ensemble. Wish me luck.
 
 My family recently acquired a pool table gratis through
-Craiglist, which I've been playing on a lot. I've also been
+Craigslist, which I've been playing on a lot. I've also been
 enjoying pickleball with a couple of pals. We're running a
 fantasy tennis league this year, which me and my friend Gio
 are developing an app for.
