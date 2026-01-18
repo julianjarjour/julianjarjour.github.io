@@ -19,7 +19,7 @@ In the beginning I struggled to get my base wires straight and couldn't keep Gol
 
 <figure><img src="assets/pendant/pendant-2.png" width="624" height="381" alt="Black and white, front and back of finished wire wrapped pendant."><figcaption>Front and back of the finished piece.</figcaption></figure>
 
-I don't think the wires I bought were quite "dead-soft," as is recommended for wire wrapping, which may have made things more difficult. The gauges were more similar than the piece called for, resulting in a slight clunkiness. It also would've been nice to have round nose pliers to make cleaner swirls on the back. All lessons for future pieces.
+I don't think the wires I bought were quite "dead-soft," as is recommended, which may have made things more difficult. The gauges were too similar which made the piece a little clunky. It also would've been nice to have round-nose pliers to make cleaner swirls on the back. All lessons for future pieces.
 
 That being said, for my first time, I was very happy with the result. After finishing, I laid the pendant in a cute purple wooden box that once carried me a handmade piece of her own. I wrapped it in a way that would please Julie Andrews, and finished it off with a wax seal a la [Rajiv Surendra](https://www.youtube.com/watch?v=vm3dR4jhImU){:target="_blank"}. And, she loved it.
 

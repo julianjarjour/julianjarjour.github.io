@@ -132,17 +132,19 @@ code, pre {
   font-family: monospace;
   font-size: 95%;
 }
-  .poem {
-      display: table;
-    }
-    .stanza {
-      text-indent: 0;
-      margin-left: 2em;
-      + figcaption {text-align:right;}
-    }
-    .verse {
-      margin-left: -2em;
-    }
+.poem {
+    display: table;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .stanza {
+    text-indent: 0;
+    margin-left: 2em;
+    + figcaption {text-align:right;}
+  }
+  .verse {
+    margin-left: -2em;
+  }
 .post {
   display: flex;
   justify-content: space-between;
