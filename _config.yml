@@ -11,11 +11,11 @@ defaults:
       layout: "post"
   - scope:
       path: ""
-      type: "poetry"
+      type: "favorites"
     values:
-      layout: "poem"
+      layout: "base"
 collections:
   musings:
     output: true
-  poetry:
+  favorites:
     output: true

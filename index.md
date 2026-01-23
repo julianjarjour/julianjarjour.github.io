@@ -57,4 +57,3 @@ It will not last the night;</span><br>
 <span class="verse">But ah, my foes, and oh, my friends—<br>
 It gives a lovely light!</span>
 </div><figcaption>Edna St. Vincent Millay</figcaption></figure>
-
