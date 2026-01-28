@@ -3,10 +3,9 @@ title: MBTA Signage in CSS
 description: A demo of Boston's MBTA signs replicated in CSS.
 date: 2024/08/06
 ---
-<head>
-    <link rel="stylesheet" href='assets/mbta/mbta.css'>
-</head>
-<span class="dc">M</span>y train-obsessed friend Billy wanted to incorporate custom MBTA signs throughout his website. This is my attempt at creating a CSS template to that end: a success in my book and a load of fun to make. He whipped up some icons as we reached out to the agency in hopes of receiving the official ones (to no avail), and then I got to work on these bad boys.
+My train-obsessed friend Billy wanted to incorporate custom MBTA signs throughout his website. This is my attempt at creating a CSS template to that end: a success in my book and a load of fun to make. He whipped up some icons as we reached out to the agency in hopes of receiving the official ones (to no avail), and then I got to work on these bad boys.
+
+<link rel="stylesheet" href='assets/mbta/mbta.css'>
 
 <div class="MBTA-sign">
   <div class="T-top" id="green">Copley</div>
