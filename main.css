@@ -238,15 +238,8 @@ hgroup + p::first-letter {
   margin-top:.5rem;
   float:left;
   margin-right:.4rem;
+  line-height: .76;
   font-weight:800;
-  -moz-text-size-adjust: none;
-  -webkit-text-size-adjust: none;
-  text-size-adjust: none;
-}
-@media (max-width: 480px) {
-hgroup + p::first-letter {
-    margin-top:.3rem;
-  }
 }
 
 
