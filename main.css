@@ -230,7 +230,7 @@ small.copyright {
 /* DROPCAP */
 
 hgroup + p::first-letter {
-  font-size:4.4rem;
+  font-size:4.3rem;
   margin-top:.45rem;
   float:left;
   margin-right:.4rem;
