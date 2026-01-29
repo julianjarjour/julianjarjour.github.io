@@ -236,9 +236,10 @@ small.copyright {
 hgroup + p::first-letter {
   font-size:4.4rem;
   margin-top:.5rem;
+  height:.8rem;
+  line-height:.8rem;
   float:left;
   margin-right:.4rem;
-  line-height: .76;
   font-weight:800;
 }
 
