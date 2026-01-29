@@ -18,6 +18,10 @@ time, mark, audio, video {
   font-kerning:normal;
   hyphens:auto;
   -webkit-font-smoothing:antialiased;
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+
 }
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section, small {
@@ -29,7 +33,7 @@ html {
   font-size:24px;
   background:#000;
   color:#eee;
-    -moz-text-size-adjust: none;
+  -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
 }
@@ -230,8 +234,8 @@ small.copyright {
 /* DROPCAP */
 
 hgroup + p::first-letter {
-  font-size:4.3rem;
-  margin-top:.45rem;
+  font-size:4.4rem;
+  margin-top:.5rem;
   float:left;
   margin-right:.4rem;
   font-weight:800;
