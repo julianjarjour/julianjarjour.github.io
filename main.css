@@ -237,6 +237,7 @@ hgroup + p::first-letter {
   font-size:4.4rem;
   margin-top:.5rem;
   float:left;
+  line-height:0;
   margin-right:.4rem;
   font-weight:800;
 }
