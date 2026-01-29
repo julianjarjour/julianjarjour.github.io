@@ -239,6 +239,9 @@ hgroup + p::first-letter {
   float:left;
   margin-right:.4rem;
   font-weight:800;
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 @media (max-width: 480px) {
 hgroup + p::first-letter {
