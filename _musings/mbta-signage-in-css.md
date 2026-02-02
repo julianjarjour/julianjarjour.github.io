@@ -50,6 +50,3 @@ The multi-layered South Station sign is my magnum opus. The only deviation from 
 </div>
 
 The code is probably a bit convoluted, but it works. If this interests you, feel free to poke around in Inspect.
-
-
-TEST
