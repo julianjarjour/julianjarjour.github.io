@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang='{{ site.lang | default: "en-US" }}'>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="description" content="{{ page.description }}">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href='{{ "/main.css" | relative_url }}'>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  </head>
+  <body>
+    {% include header.html %}
+    <main>
+      <hgroup>
+        <h1>{{page.title}}</h1>
+        <small>{{page.date|ordinalDate}}</small>
+      </hgroup>
+      {{ content }}
+      {% if page.mod-date %}<small class="mod-date">last modified {{page.mod-date|ordinalDate}}</small>{%endif%}
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

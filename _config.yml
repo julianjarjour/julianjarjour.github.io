@@ -1,0 +1,21 @@
+title: julian jarjour
+description: >- 
+  julian's essays and things
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://julianjarjour.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+defaults:
+  - scope:
+      path: ""
+      type: "musings"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "favorites"
+    values:
+      layout: "base"
+collections:
+  musings:
+    output: true
+  favorites:
+    output: true
