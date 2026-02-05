@@ -3,14 +3,14 @@ name: Deploy Production Site
 # Trigger on pushes to the main branch  
 on:  
   push:  
-    branches: [ "main" ]  
+    branches: [ "master" ]  
  
 jobs:  
   build-and-deploy:  
     runs-on: ubuntu-latest  
     steps:  
       # Step 1: Check out the code from the main branch  
-      - name: Checkout main  
+      - name: Checkout master
         uses: actions/checkout@v4  
       - name: Set up Ruby  
         uses: ruby/setup-ruby@v1  
