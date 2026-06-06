@@ -3,6 +3,9 @@ description: >-
   julian's essays and things
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://julianjarjour.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+plugins:
+  - jekyll-image-size
+  - jekyll-exif-data
 defaults:
   - scope:
       path: ""

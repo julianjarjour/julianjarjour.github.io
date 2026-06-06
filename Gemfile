@@ -8,3 +8,7 @@ gem "webrick", "~> 1.8"
 gem "csv"
 gem "logger"
 gem "base64"
+
+gem "jekyll-image-size", "~> 1.2"
+
+gem "jekyll-exif-data", "~> 0.0.3"
