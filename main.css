@@ -515,21 +515,19 @@ textarea {
 .g {
   --min-width: 33%;
   --row-height: 15vh;
-  --max-row-height: 60vh;
+  --max-row-height: 90vh;
   display: flex;
   flex-wrap: wrap;
+  margin: -.1rem;
 }
 
 .g > a {
   --ratio: calc(var(--w) / var(--h));
   flex-grow: calc(var(--ratio) * 100);
   flex-basis: calc(var(--ratio) * var(--row-height));
-  margin: 0.1rem 0.1rem 0.1rem 0;
+  margin: 0.1rem;
   min-width: var(--min-width);
   background:none;
-}
-.g > a:nth-child(even) {
-  margin: 0.1rem 0 0.1rem 0.1rem
 }
 
 .g > a > img {
