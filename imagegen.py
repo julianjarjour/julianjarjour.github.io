@@ -31,13 +31,13 @@ def generate():
 
 def thumb(photo):
     with Image(filename=photo) as p:
-        factor = 1200/p.width
+        factor = 800/p.width
         p.resize(width=int(p.width * factor), height=int(p.height * factor));
         p.save(filename="".join((dirname(photo),"/thumbs/",Path(photo).stem,"t",splitext(photo)[1])));
 
 def smallthumb(photo):
     with Image(filename=photo) as p:
-        factor = 800/p.width
+        factor = 400/p.width
         p.resize(width=int(p.width * factor), height=int(p.height * factor));
         p.save(filename="".join((dirname(photo),"/smallthumbs/",Path(photo).stem,"st",splitext(photo)[1])));
 
