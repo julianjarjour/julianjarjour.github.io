@@ -10,31 +10,33 @@ I'm a {{"now"|date:"%Y%m%d"|minus:"20060713"|slice:0,2}}-year-old musician and n
 </div>
 
 
-<h2>now <small>as of 6/3/26</small></h2>
+<h2>now <small>as of 8/4/26</small></h2>
 
-Just wrapped up my fourth and best semester, and I'm
-hoping to graduate in just two more. Currently looking
-for internships in lieu of a second capstone.
+I've been playing a lot of sports this summer: tennis,
+pickleball, basketball, and for the first time, beach
+volleyball. At home, I've discovered a love for improv
+comedy and TTRPGs via
+[Dropout](https://www.dropout.tv/){:target="_blank"}, and
+I've since started playing my first D&D campaign with some
+old chums.
 
-The church gig has been going well; I'm diving into learning
-the organ because I may be leading a service or two this
-summer. I've also gotten on the roster for what functions as
-my university's jazz booking agency---this has led me to
-playing my very first professional, well-paying jazz gigs.
-These were played on 64 unweighted keys without a sustain
-pedal, but still went swimmingly. Along the way, I played
-two oud gigs for National Arab American Heritage Month and
-had the opportunity to perform at Boston's iconic Hatch
-Shell a few days ago!
+I've also been photographing concerts for my friends
+[Opaline](https://www.instagram.com/opaline_978/){:target="_blank"},
+who've just dropped their first CD; for Nick Shea celebrating the
+release of his album [The Guy Who
+Draws](https://nickshea.bandcamp.com/album/the-guy-who-draws){:target="blank"};
+and for nonprofit
+[AccessCulture](https://accessculture.org/){:target="_blank"}'s first
+world music events of the year.
 
-Outside of music, I've been taking it easy. I'm attending
-weekly meditations at a Zen center near my church, playing
-pool at the thrift shop, watching sailing documentaries,
-reading Robert Pirsig, photographing basement shows, and
-enjoying a hand-me-down vintage radio receiver.
+As for my own endeavors, I'm practicing for an upcoming show
+with my impromptu band Lady Fortuna; preparing to lead two
+church services on the organ this month; working on my oud
+technique; building and rebuilding websites; pondering what
+makes for good experiences; and still struggling to land a
+job.
 
-I'm looking forward to a summer of yum-yummyness. I hope yours is full
-of joy as well, rare reader!
+That's all for now, folks.
 ## [latest posts](/musings.html)
 
 {%assign posts = site.musings| sort: 'date' | reverse %}
