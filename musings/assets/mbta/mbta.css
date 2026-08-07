@@ -1,0 +1,91 @@
+.MBTA-sign {
+  display:block;
+  text-transform:uppercase;
+  font-family:"Helvetica Neue",Arial,Verdana,sans-serif;
+  font-weight:bold;
+  display:flex;
+  flex-direction:column;
+  width:90vw;
+  max-width:26em;
+  margin:1em auto;
+}
+.T-top {
+  text-align:center;
+  font-size:1.25em;
+  color:white;
+}
+.T-bottom {
+  display:flex;
+  font-size:calc(1.25 * .7em);
+  justify-content:center;
+  align-items:center;
+  padding:0 .25em;
+  background:white;
+}
+.Tb-left {
+  display:flex;
+  align-items:center;
+  width:50%;
+  color:black;
+}
+.Tb-right {
+  display:flex;
+  justify-content:right;
+  align-items:center;
+  width:50%;
+  color:black;
+}
+.bubble {
+  font-size:calc(.875 * .75em);
+  color:white;
+  border-radius:25px;
+  padding:0 .5em;
+  margin:.25em .15em;
+}
+.T-icon {
+  padding:0 .25em;
+  height:20px;
+  width:auto;
+}
+.T-icon + .T-icon {
+  border-left:2px gray solid;
+}
+.T-bottom + .T-bottom {
+  border-top:2px gray solid;
+}
+
+#blue {
+  background:#003DA5;
+}
+#red {
+  background:#DA291C;
+}
+#orange {
+  background:#ED8B00;
+}
+#green {
+  background:#00843D;
+}
+#white {
+  background:white;
+  color:black;
+  border-bottom:2px gray solid;
+}
+#silver {
+  background:#7C878E;
+}
+#commuter {
+  background:#80276C;
+}
+#amtrak {
+  background:#005983;
+}
+
+@media (max-width: 536px) {
+  .MBTA-sign {
+    font-size:4vw;
+  }
+  .T-icon {
+    height:1.5vh;
+  }
+}
