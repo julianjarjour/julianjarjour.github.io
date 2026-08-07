@@ -1,6 +1,7 @@
 ---
 layout: base
 title: photos 
+description: photos I have taken
 ---
 <div class="g">
 {% assign photos = site.static_files | reverse %}
